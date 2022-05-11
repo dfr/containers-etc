@@ -22,7 +22,16 @@
       }
     },
     {
-      "type": "loopback"
+      "type": "portmap",
+      "capabilities": {
+        "portMappings": true
+      }
+    },
+    {
+      "type": "firewall"
+    },
+    {
+      "type": "tuning"
     }
   ]
 }
